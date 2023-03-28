@@ -1,12 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Meeting Card</title>
+
+    <style>
+        .body{
+            margin: 0;
+            padding: 0;
+            background: whitesmoke;
+        }
+
+        .Header {
+            width: 100%;
+            margin: auto;
+            padding: 0;
+            height: 350px;
+            background: url('Images/wallpaper.jpg') center/cover no-repeat;
+            background-attachment:unset;
+        }
+
+        .Parent {
+            margin: 0;
+            padding: 10px;
+            border-radius: 20px;
+            background: #53D9FD;
+            margin-top: -15px;
+            border: 5px solid #ACACB6;
+        }
+
+        .Timestyle {
+            margin: auto;
+            padding: 0;
+            font-size: 2em;
+            font-weight: 600;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-left: 10px;
+        }
+
+        .Pstyle {
+            margin: auto;
+            padding: 0;
+            font-size: 1.5em;
+            font-weight: 400;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+
+        .ImageMenu {
+            margin: 0;
+            padding: 0;
+            float: right;
+            width: 24px;
+            height: 24px;
+        }
+
+        .ImageList{
+            margin: auto;
+            padding: 0;
+            margin-left: 34px;
+        }        
+
+        .ImageStyle{
+            height: 72px;
+            width: 72px;
+            border-radius: 50%;
+            margin-left: 5px;
+            border:  2px solid white;
+            margin-left: -24px;
+            
+        }
+    </style>
+
 </head>
+
 <body>
-    
+    <div class="Header">
+    </div>
+
+    <div class="Parent">
+        <img class="ImageMenu" src="Images/menu-2.png" alt="menu">
+        <p class="Timestyle">7:30 AM</p>
+        <p class="Pstyle">Product designer meeting</p>
+        <div class="ImageList">
+            <img class="ImageStyle" src="Images/boy1.jpg" alt="">
+            <img class="ImageStyle" src="Images/boy2.jpg" alt="">
+            <img class="ImageStyle" src="Images/boy3.jpg" alt="">
+            <img class="ImageStyle" src="Images/6.png" alt="">
+        </div>
+    </div>
+
+    <div class="Parent" style="margin-top: 20px; background: #A483FD;" >
+        <img class="ImageMenu" src="Images/menu-2.png" alt="menu">
+        <p class="Timestyle">9:30 AM</p>
+        <p class="Pstyle">Lead meeting</p>
+        <div class="ImageList">
+            <img class="ImageStyle" src="Images/girl2.jpg" alt="">
+            <img class="ImageStyle" src="Images/girl3.jpg" alt="">
+            <img class="ImageStyle" src="Images/boy3.jpg" alt="">
+            <img class="ImageStyle" src="Images/6.png" alt="">
+        </div>
+    </div>
+
+    <div class="Parent" style="margin-top: 20px; background: #FDAA18;" >
+        <img class="ImageMenu" src="Images/menu-2.png" alt="menu">
+        <p class="Timestyle">16:30 AM</p>
+        <p class="Pstyle">Design Team Scrum</p>
+        <div class="ImageList">
+            <img class="ImageStyle" src="Images/men.png" alt="">
+            <img class="ImageStyle" src="Images/men2.jpg" alt="">
+            <img class="ImageStyle" src="Images/men3.jpg" alt="">
+            <img class="ImageStyle" src="Images/6.png" alt="">
+        </div>
+    </div>
 </body>
-</html>
+
+</html>  
